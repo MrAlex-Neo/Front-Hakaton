@@ -1769,7 +1769,8 @@ div .speakRight img{
   flex-wrap: wrap;
 }
 .formWalletPush.secondary {
-  padding: 11px 5em;
+  flex-grow: 1;
+  text-align: center;
 }
 .footerFormOne div {
   display: flex;
@@ -1834,4 +1835,12 @@ div .speakRight img{
 .walletReplenishmentForm.Third {
   text-align: center;
   padding: calc(3vw + 29px) calc(9.1vw - 17px);
+}
+
+
+.footerFormOne.Buy a{
+  flex-grow: 1;
+}
+.footerFormOne.Buy {
+  text-align: center;
 }
