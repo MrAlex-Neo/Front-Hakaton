@@ -1526,11 +1526,10 @@ div .speakRight img{
   margin: 43px 0;
 }
 .onlineWalletTable table{
-  display: none;
+  width: 100%;
   font-weight: 500;
   font-size: 20px;
   line-height: 22px;
-  width: 100%;
   padding: 15px;
 }
 .onlineWalletTable td{
@@ -1553,6 +1552,7 @@ div .speakRight img{
   margin: 50px 0;
   
 }
+
 
 .tableEnd {
   display: flex;
@@ -1585,7 +1585,6 @@ div .speakRight img{
   gap: 5px;
 }
 .onlineWalletFlex {
-  display: none;
   flex-direction: column;
   flex-wrap: wrap;
 }
@@ -1633,6 +1632,9 @@ div .speakRight img{
 }
 @media (min-width: 901px) {
   .onlineWalletTable table{
-    display: block;
+    display: table;
+  }
+  .onlineWalletFlex {
+    display: none;
   }
 }
