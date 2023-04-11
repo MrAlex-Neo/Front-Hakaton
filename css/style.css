@@ -1016,7 +1016,23 @@ a.activeNumber__projects {
   border-radius: 7px
 }
 
+/* Windows__error */
 
+.wrapper__error {
+  width: 100%;
+  height: 88vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imgBtn__error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.imgBtn__error input {
+  width: 315px;
+}
 
 
 
