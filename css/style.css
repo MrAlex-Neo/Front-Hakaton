@@ -939,7 +939,45 @@ a.activeNumber__projects {
   line-height: 19px;
 }
 
+/* Windows__messagesAll */
 
+.messagesAll h2 {
+  margin: 100px 0 45px;
+}
+.messagesAll .twoBlocks__projects {
+  margin-top: 0;
+}
+.messagesAll .services {
+  margin-top: 0;
+}
+.messegeFlex {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.name__with__message h5 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 22px;
+}
+.name__with__message h5:last-child {
+  margin-top: 8px;
+  color: #6B7280;
+}
+.imgOrderBlock img {
+  border-radius: 50%;
+}
+.imgPosOrderBlock img {
+  border-radius: 50%;
+}
+.imgOrderBlock {
+  position: relative;
+}
+.imgPosOrderBlock {
+  position: absolute;
+  left: 45px;
+  top: 45px;
+}
 
 
 
