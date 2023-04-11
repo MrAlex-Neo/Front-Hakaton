@@ -786,6 +786,81 @@ a.activeNumber__projects {
   border-radius: 7px;
 }
 
+/* Window__user__profile */
+
+.mainSection__profile {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.imgMain__profile img {
+  border-radius: 50%;
+}
+.nameStarsMain__profile h2 {
+  color: var(--blue);
+}
+.nameStarsMain__profile {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: end;
+  gap: 30px;
+}
+.locationMain__profile {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.locationMain__profile span {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22px;
+  color: #222222;
+}
+.dateEmailNum__profile {
+  margin: 50px 0;
+  display: flex;
+  gap: 125px;
+}
+.date__profile h5, span {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22px;
+}
+.date__profile span {
+  display: block;
+  margin-top: 15px;
+  color: var(--blue);
+}
+
+.experienceLanguages__profile {
+  display: flex;
+  gap: 120px;
+}
+.expLangs__profile h5 {
+  margin-bottom: 15px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22px;
+}
+.expLangs__profile span {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 22px;
+}
+.expLangs__profile hr {
+  height: 3px;
+  background: #3274FF;
+  border: none;
+  border-radius: 10px;
+}
+.expLang__profile {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 0 135px;
+}
+
+
 
 
 
