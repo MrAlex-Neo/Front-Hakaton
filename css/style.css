@@ -23,6 +23,10 @@ body {
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
+a {
+  text-decoration: none;
+  color: #000000;
+}
 p {
   margin: 0;
 }
@@ -1331,4 +1335,49 @@ div .speakRight img{
     padding: 11px 23px;
   }
 
+}
+
+
+/* target2 */
+.NameUserTarget {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 2% 10px;
+  font-size: 20px;
+  line-height: 22px;  
+  font-weight: 500;
+}
+
+.friend.target {
+  border: none;
+  padding: 0;
+}
+
+.friend.target .faceUser {
+  width: 63px;
+  margin: 0;
+}
+.ProfTarget {
+  color: #6B7280;
+}
+
+.wayWorkTarget {
+  display: flex;
+  gap: 18px;
+  margin: 40px 0;
+}
+
+.targetStady {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 22px;
+}
+
+.targetComplited {
+  height: 214px;
+  width: 20px;
 }
