@@ -217,12 +217,12 @@ p {
   text-decoration: none;
 }
 .headBtnOne {
-  display: flex;
+  display: none;
   gap: 15px;
   margin-top: 5px;
 }
 .headBtnOneAnother {
-  display: none;
+  display: flex;
   align-items: center;
   margin-right: 10%;
   gap: 2vw;
