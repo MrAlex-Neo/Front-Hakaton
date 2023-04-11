@@ -834,7 +834,7 @@ a.activeNumber__projects {
   line-height: 22px;
 }
 .date__profile span {
-  display: block;
+  display: inline-block;
   margin-top: 15px;
   color: var(--blue);
 }
