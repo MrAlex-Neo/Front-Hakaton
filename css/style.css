@@ -1816,3 +1816,22 @@ div .speakRight img{
 .walletReplenishmentFormImg.WalletSecond {
   margin-bottom: 10px;
 }
+
+
+/* walletThree */
+.goodOperImg {
+  width: 264px;
+  height: 232px;
+}
+
+.walletReplenishment.Third h5{
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+  color: #3274FF;
+}
+
+.walletReplenishmentForm.Third {
+  text-align: center;
+  padding: calc(3vw + 29px) calc(9.1vw - 17px);
+}
