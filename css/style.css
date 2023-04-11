@@ -787,11 +787,14 @@ a.activeNumber__projects {
   border-radius: 7px;
 }
 
-/* Window__user__profile */
-
+/* Windows__user__profile */
+.userProfile__profile {
+  margin-top: 55px;
+}
 .mainSection__profile {
   margin-top: 50px;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 30px;
 }
@@ -804,6 +807,7 @@ a.activeNumber__projects {
 .nameStarsMain__profile {
   margin-bottom: 30px;
   display: flex;
+  flex-wrap: wrap;
   align-items: end;
   gap: 30px;
 }
@@ -821,7 +825,8 @@ a.activeNumber__projects {
 .dateEmailNum__profile {
   margin: 50px 0;
   display: flex;
-  gap: 125px;
+  flex-wrap: wrap;
+  gap: 15px calc(14vw - 75px);
 }
 .date__profile h5, span {
   font-weight: 700;
@@ -829,20 +834,15 @@ a.activeNumber__projects {
   line-height: 22px;
 }
 .date__profile span {
-  display: block;
+  display: inline-block;
   margin-top: 15px;
   color: var(--blue);
 }
 
 .experienceLanguages__profile {
+  margin-bottom: 50px;
   display: flex;
-  gap: 120px;
-}
-.expLangs__profile h5 {
-  margin-bottom: 15px;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 22px;
+  gap: 30px calc(9vw - 13px);
 }
 .expLangs__profile span {
   font-weight: 500;
@@ -855,10 +855,49 @@ a.activeNumber__projects {
   border: none;
   border-radius: 10px;
 }
-.expLang__profile {
+.exp__profile {
   display: grid;
   grid-template-columns: auto auto;
-  gap: 0 135px;
+  justify-items: space-between;
+  gap: 0 calc(14.8vw - 83px);
+}
+.exp__profile span:last-child {
+  justify-self: end;
+}
+.lang__profile {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: space-between;
+  gap: 0 calc(20.4vw - 159px);
+}
+.h5__with__pancil {
+  margin-bottom: 15px;
+  display: flex;
+  gap: 10px;
+}
+.h5__with__pancil h5 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22px;
+}
+.inform__profile {
+  margin-bottom: 50px;
+  max-width: 1100px;
+}
+.inform__profile span {
+  font-weight: 500;
+}
+.addFile__profile {
+  margin-top: 30px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.addFile__profile span {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 22px;
+  color: #6B7280;
 }
 
 
@@ -944,6 +983,15 @@ a.activeNumber__projects {
     }
     .w6CMMCopy{
         display: flex;
+    }
+    .experienceLanguages__profile {
+      flex-wrap: wrap;
+    }
+    .exp__profile {
+      gap: 0 50px;
+    }
+    .dateEmailNum__profile {
+      gap: 15px 51px;
     }
 }
 @media (max-width: 680px) {
