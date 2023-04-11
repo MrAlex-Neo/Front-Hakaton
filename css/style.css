@@ -1526,6 +1526,7 @@ div .speakRight img{
   margin: 43px 0;
 }
 .onlineWalletTable table{
+  display: none;
   font-weight: 500;
   font-size: 20px;
   line-height: 22px;
@@ -1556,6 +1557,7 @@ div .speakRight img{
 .tableEnd {
   display: flex;
   justify-content: flex-end;
+  flex-wrap: wrap;
   align-items: center;
   gap: 1em;
   margin: 2em 0;
@@ -1577,6 +1579,60 @@ div .speakRight img{
   line-height: 22px;
   
 }
-@media (max-width: 900px) {
+.inputWalletProjectDiv {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.onlineWalletFlex {
+  display: none;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
 
+.FlexWalletProjectObject{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 15px;
+  padding: 15px;
+  border: 2px solid var(--blue);
+  border-radius: 1em;
+  gap: 2em;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1em;
+  width: 200px;
+}
+.box h5 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22px;
+}
+.box span{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 22px;
+}
+.onlineWalletTable input{
+  width: 24px;
+  height: 24px;
+}
+
+@media (max-width: 900px) {
+  .onlineWalletTable table{
+    display: none;
+  }
+  .onlineWalletFlex {
+    display: flex;
+  }
+}
+@media (min-width: 901px) {
+  .onlineWalletTable table{
+    display: block;
+  }
 }
