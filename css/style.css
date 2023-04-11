@@ -1068,7 +1068,6 @@ div .speakRight img{
 .speakRight.child{
   align-self: flex-start;
   display: flex;
-  flex-direction: row-reverse;
   border-radius: 0.5em 0.5em 0.5em 0;
 }
 
@@ -1210,6 +1209,7 @@ div .speakRight img{
 
 
 
+
 /* USERMENu */
 .userMenuWindow {
   position: absolute;
@@ -1241,4 +1241,94 @@ div .speakRight img{
 }
 .none {
   display: none;
+}
+
+
+
+
+/* target */
+
+.mainAboutPage .messagesServesLeft {
+  height: auto;
+  min-width: 350px;
+}
+.mainAboutPage .messagesServesLeft div{
+  height: 10em;
+
+}
+.mainRightTarget.target {
+  margin-bottom: auto;
+}
+
+.targetStars {
+  display: flex;
+  margin: 20px 0;
+  gap: 10px;
+}
+.targetStars img{
+  width: 24px;
+}
+.mainAboutPage h1{
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 22px;
+  color: #222222;
+}
+
+.targetBnt {
+  display: flex;
+  gap: 17px;
+}
+.targetBnt a{
+  text-decoration: none;
+  margin: 45px 0;
+}
+.targetBnt .secondary{
+  padding: 11px 43px;
+}
+
+.secondary.target {
+  color: var(--white);
+  background-color: #4CE988;
+  border: 2px solid #4CE988;
+  padding: 10px 55px;
+}
+
+.blueRightTarget {
+  border: 2px solid var(--blue);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 327px;
+  padding: 20px 30px;
+  border-radius: 1em;
+}
+.primary.target {
+  color: #FD4E5D;
+  border: 2px solid #FD4E5D;
+}
+
+.targetSendPrimaryRight {
+  padding: 1px;
+  margin-top: 20px;
+  width: auto;
+  text-align: center;
+}
+.targetSendPrimaryRight .primary{
+  padding: 10px 85px;
+}
+.targetSendPrimaryRight a{
+  text-decoration: none;
+}
+
+
+
+@media (max-width: 446px) {
+  .primary.target {
+    padding: 11px 23px;
+  }
+  .secondary.target {
+    padding: 11px 23px;
+  }
+
 }
