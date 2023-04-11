@@ -1734,6 +1734,7 @@ div .speakRight img{
 .onlineWalletTable input{
   width: 24px;
   height: 24px;
+  
 }
 
 @media (max-width: 900px) {
@@ -1761,7 +1762,7 @@ div .speakRight img{
   margin-top: 2em;
   font-weight: 700;
   font-size: 32px;
-  line-height: 22px;
+  line-height: 42px;
 }
 
 .walletReplenishmentForm {
@@ -1786,6 +1787,10 @@ div .speakRight img{
   height: 44px;
   border-radius: 7px;
   border: 2px solid #9CA3AF;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 0 16px;
   
 }
 .walletReplenishmentText {
@@ -1801,7 +1806,8 @@ div .speakRight img{
   flex-wrap: wrap;
 }
 .formWalletPush.secondary {
-  padding: 11px 5em;
+  flex-grow: 1;
+  text-align: center;
 }
 .footerFormOne div {
   display: flex;
@@ -1817,3 +1823,63 @@ div .speakRight img{
   top: 2.5em;
   right: 1em;
 }
+
+
+/* walletTWO */
+.anotherOpsCard {
+  display: flex;
+  gap: 3em;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.anotherOpsCard input {
+  margin-top: 0.5em;
+  padding: 0;
+  width: calc(3vw + 69px);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.anotherOpsCard input::placeholder {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #6B7280;
+  text-align: center;
+}
+.walletReplenishmentFormImg.WalletSecond {
+  margin-bottom: 10px;
+}
+
+
+/* walletThree */
+.goodOperImg {
+  width: 264px;
+  height: 232px;
+}
+
+.walletReplenishment.Third h5{
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+  color: #3274FF;
+}
+
+.walletReplenishmentForm.Third {
+  text-align: center;
+  padding: calc(3vw + 29px) calc(9.1vw - 17px);
+}
+
+
+.footerFormOne.Buy a{
+  flex-grow: 1;
+}
+.footerFormOne.Buy {
+  text-align: center;
+}
+
+/* end  */

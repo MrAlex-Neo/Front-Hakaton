@@ -69,14 +69,23 @@
     <main class="walletReplenishment">
         <h3>Пополнение электронного кошелька</h3>
         <div class="walletReplenishmentForm">
-            <img class="walletReplenishmentFormImg" src="./img/Load1.svg" alt="">
+            <img class="walletReplenishmentFormImg WalletSecond" src="./img/Load1.svg" alt="">
             <div class="walletReplenishmentText">
-                <span>Введите сумму</span>
-                <span class="uzMoney" >сум</span>
+                <span>Номер карты</span>
             </div>
-            <input type='text' onkeypress='validate(event)'>
+            <input type='text' placeholder="0000 XXXX XXXX 0000" onkeypress='validate(event)'>
+            <div class="anotherOpsCard">
+                <div>
+                    <span>Срок</span>
+                    <input type='text' placeholder="12/26" onkeypress='validate(event)'>
+                </div>
+                <div>
+                    <span>CVV</span>
+                    <input type='text' placeholder="XXX" onkeypress='validate(event)'>
+                </div>
+            </div>
             <div class="footerFormOne">
-                <a href="./walletReplenishmentSecond.html" class="secondary formWalletPush">Далее</a>
+                <a href="./walletReplenishmentFour.html" class="secondary formWalletPush">Далее</a>
                 <div>
                     <a href="#"><img src="./img/visa.svg" alt=""></a>
                     <a href="#"><img src="./img/unionpay.svg" alt=""></a>
