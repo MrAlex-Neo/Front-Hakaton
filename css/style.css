@@ -665,6 +665,14 @@ input[type="radio"]:checked + .radio_btn {
   margin: 15px 0 50px;
   display: flex;
 }
+.inputBlock__projects .secondary {
+  text-align: center;
+  
+}
+.buttonsBlock__projects .btnClass {
+  text-align: center;
+
+}
 
 .ordersBlock__projects {
   display: flex;
