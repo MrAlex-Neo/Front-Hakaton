@@ -2030,3 +2030,73 @@ div .speakRight img{
 }
 
 /* end  */
+
+
+
+/* COUB */
+
+.scene {
+  perspective: 500px;
+}
+.coub {
+  width: 200px;
+  height: 200px;
+  margin: 150px auto;
+  transform-style: preserve-3d;
+  animation: coub 30s infinite alternate ease-in-out;
+}
+.coub-part {
+  width: 100%;
+  height: 100%;
+  
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+  line-height: 200px;
+  
+  position: absolute;
+  border: 2px solid var(--blue);
+}
+.coub-part img {
+  width: 100%;
+  height: 100%;;
+}
+.coub-part.front {
+  background-color: #2a9317;
+  transform: translateZ(100px);
+}
+.coub-part.back {
+  background-color: #2a9317;
+  transform: translateZ(-100px) rotateY(180deg);
+}
+.coub-part.left {
+  background-color: #381dcb;
+  transform: rotateY(-90deg) translateZ(100px);
+}
+.coub-part.right {
+  background-color: #381dcb;
+  transform: rotateY(90deg) translateZ(100px);
+}
+.coub-part.bottom {
+  background-color: #b70d0d;
+  transform: rotateX(-90deg) translateZ(100px);
+}
+.coub-part.top {
+  background-color: #b70d0d;
+  transform: rotateX(90deg) translateZ(100px);
+}
+
+@keyframes coub {
+  0% {
+      transform: rotateX(0deg) rotateY(0deg);
+  }
+  33% {
+      transform: rotateX(-30deg) rotateY(-360deg);
+  }
+  66% {
+      transform: rotateX(-360deg) rotateY(-360deg);
+  }
+  100% {
+      transform: rotateX(-270deg) rotateY(0deg);
+  }
+}
