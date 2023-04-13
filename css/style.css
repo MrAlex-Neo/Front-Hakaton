@@ -12,7 +12,7 @@ body {
     padding: 0;
     background-color: #F5F5F5;
     color: #222222;
-    font-family: 'TT Hoves';
+    font-family: 'TT Hoves', sans-serif;
     padding: 0 calc(5.6vw - 1px);/*80px*/
 }
 *,
@@ -254,6 +254,38 @@ h2 {
   width: 25px;
 }
 
+/* ===Main > Slider===
+======================= */
+
+.splide__track {
+  border-radius: 30px;
+  border: 2px solid var(--blue);
+}
+.splide__slide img {
+  width: 100%;
+}
+.splide__pagination__page {
+  margin-right: 20px;
+  width: calc(0.7vw + 7.2px);
+  height: calc(0.7vw + 7.2px);
+
+  background: var(--white);
+  border: 2px solid var(--blue);
+
+  transition: .3s;
+
+  bottom: calc(1.8vw - 14.56px);
+}
+.splide__pagination__page:hover {
+  background-color: var(--blue);
+}
+.splide__pagination__page:active {
+  background-color: var(--blue);
+}
+.splide__pagination__page.is-active {
+  background-color: var(--blue);
+  outline: none;
+}
 
 /* window1 */
 
