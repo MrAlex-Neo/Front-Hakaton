@@ -475,7 +475,7 @@ h4 {
     border-radius: 1em;
     width: calc(9.4vw + 58px);
     position: relative;
-    top: -25%;
+    top: -20%;
     left: -25%;
 }
 .w4OpsOne span{
@@ -493,7 +493,7 @@ h4 {
     width: 195px;
     position: relative;
     background-color: var(--white);
-    top: -76%;
+    top: -60%;
     right: -69%;
 }
 .w4OpsTwo p{
@@ -567,7 +567,7 @@ h4 {
   width: calc(3.9vw + 110.5px);
   position: relative;
   background-color: var(--white);
-  top: -70%;
+  top: -50%;
   right: -69%;
 }
 .w5OpsTwo h4{
@@ -1064,13 +1064,16 @@ a.activeNumber__projects {
 /* Windows__messagesAll */
 
 .messagesAll h2 {
-  margin: calc(7.5vw - 8px) 0 45px;
+  margin: calc(6.5vw - 1px) 0 30px;
 }
 .messagesAll .twoBlocks__projects {
   margin-top: 0;
 }
 .messagesAll .services {
   margin-top: 0;
+}
+.messagesAll .orderAllBlock {
+  margin-bottom: 0;
 }
 .messegeFlex {
   display: flex;
@@ -1233,6 +1236,7 @@ a.activeNumber__projects {
     }
     .w4OpsOne {
         left: -15%;
+        top: -25%;
     }
     .w5OpsOne {
         left: -15%;
