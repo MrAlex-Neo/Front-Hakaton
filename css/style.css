@@ -2,6 +2,7 @@
     --white: #FFFFFF;
     --blue: #3274FF;
 }
+/* margin-top: calc(7.5vw - 8px); */
 html {
   font-size: 16px;
   color: #3D3D3D;
@@ -1063,7 +1064,7 @@ a.activeNumber__projects {
 /* Windows__messagesAll */
 
 .messagesAll h2 {
-  margin: 100px 0 45px;
+  margin: calc(7.5vw - 8px) 0 45px;
 }
 .messagesAll .twoBlocks__projects {
   margin-top: 0;
@@ -1137,8 +1138,7 @@ a.activeNumber__projects {
 /* Windows__error */
 
 .wrapper__error {
-  width: 100%;
-  height: 88vh;
+  margin-top: calc(7.5vw - 1px);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1147,9 +1147,14 @@ a.activeNumber__projects {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0 auto;
+}
+.imgBtn__error img{
+  width: calc(9vw + 245px);
+  height: calc(10.2vw + 277px);
 }
 .imgBtn__error input {
-  width: 315px;
+  width: calc(3vw + 285px);
 }
 
 
@@ -1901,7 +1906,7 @@ div .speakRight img{
 
 
 .walletReplenishment h3 {
-  margin-top: 2em;
+  margin-top: calc(7.5vw - 8px);
   font-weight: 700;
   font-size: 32px;
   line-height: 42px;
@@ -1913,7 +1918,7 @@ div .speakRight img{
   gap: 15px;
   padding: calc(3vw + 29px) calc(7.1vw - 17px);
   width: calc(20.5vw + 222px);
-  margin: 15em auto;
+  margin: calc(11.6vw - 24px) auto;
   border: 2px solid var(--blue);
   border-radius: 1em;
 
