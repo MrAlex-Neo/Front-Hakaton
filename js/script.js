@@ -43,3 +43,18 @@ function validate(evt) {
 	  if(theEvent.preventDefault) theEvent.preventDefault();
 	}
   }
+
+  // Slider
+
+  var splide = new Splide( '.splide', {
+    type   : 'loop',
+    perPage: 1,
+    perMove: 1,
+    snap: boolean = true,
+    arrows: false,
+    autoplay: true,
+    interval: 5000,
+    speed: 3000,
+    resetProgress: boolean = true,
+  } );
+  splide.mount();
