@@ -2,6 +2,7 @@
     --white: #FFFFFF;
     --blue: #3274FF;
 }
+/* margin-top: calc(7.5vw - 8px); */
 html {
   font-size: 16px;
   color: #3D3D3D;
@@ -761,7 +762,7 @@ input[type="radio"]:checked + .radio_btn {
 /* Projects */
 
 .twoBlocks__projects {
-  margin-top: 130px;
+  margin-top: calc(7.5vw - 8px);
   display: flex;
   gap: 30px;
 }
@@ -808,7 +809,7 @@ input[type="radio"]:checked + .radio_btn {
   padding: 18px 30px 18px 24px;
   border: 2px solid #3274FF;
   border-radius: 14px;
-  margin-bottom: 30px;
+  margin-bottom: calc(1.3vw + 5px);
 }
 .orderBlock {
   display: flex;
@@ -836,7 +837,7 @@ h5 {
 .moneyBtn__orderBlock {
   display: flex;
   align-items: center;
-  gap: 50px;
+  gap: calc(7.5vw - 8px);
 }
 .money__orderBlock {
   font-weight: 600;
@@ -1079,13 +1080,16 @@ a.activeNumber__projects {
 /* Windows__messagesAll */
 
 .messagesAll h2 {
-  margin: 100px 0 45px;
+  margin: calc(6.5vw - 1px) 0 30px;
 }
 .messagesAll .twoBlocks__projects {
   margin-top: 0;
 }
 .messagesAll .services {
   margin-top: 0;
+}
+.messagesAll .orderAllBlock {
+  margin-bottom: 0;
 }
 .messegeFlex {
   display: flex;
@@ -1153,8 +1157,7 @@ a.activeNumber__projects {
 /* Windows__error */
 
 .wrapper__error {
-  width: 100%;
-  height: 88vh;
+  margin-top: calc(7.5vw - 1px);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1163,9 +1166,14 @@ a.activeNumber__projects {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0 auto;
+}
+.imgBtn__error img{
+  width: calc(9vw + 245px);
+  height: calc(10.2vw + 277px);
 }
 .imgBtn__error input {
-  width: 315px;
+  width: calc(3vw + 285px);
 }
 
 /* COUB */
@@ -1313,6 +1321,7 @@ a.activeNumber__projects {
     }
     .w4OpsOne {
         left: -15%;
+        top: -25%;
     }
     .w5OpsOne {
         left: -25%;
@@ -1363,6 +1372,7 @@ a.activeNumber__projects {
 /* ABOUTPAGE */
 
 .mainAboutPage {
+  margin-top: calc(7.5vw - 8px);
   display: flex;
   flex-wrap: wrap;
   gap: calc(7.5vw - 8px);
@@ -1390,7 +1400,7 @@ a.activeNumber__projects {
   margin-top: 20px;
   font-weight: 600;
   font-size: 32px;
-  line-height: 22px;
+  line-height: 120%;
 }
 .maiAabout {
   font-weight: 600;
@@ -1720,9 +1730,7 @@ div .speakRight img{
   height: 10em;
 
 }
-.mainRightTarget.target {
-  margin-bottom: auto;
-}
+
 
 .targetStars {
   display: flex;
@@ -1735,7 +1743,7 @@ div .speakRight img{
 .mainAboutPage h1{
   font-weight: 600;
   font-size: 32px;
-  line-height: 22px;
+  line-height: 120%;
   color: #222222;
 }
 
@@ -1764,6 +1772,7 @@ div .speakRight img{
   flex-direction: column;
   gap: 10px;
   width: 327px;
+  height: 410px;
   padding: 20px 30px;
   border-radius: 1em;
 }
@@ -1775,11 +1784,12 @@ div .speakRight img{
 .targetSendPrimaryRight {
   padding: 1px;
   margin-top: 20px;
-  width: auto;
+  flex-grow: 1;
   text-align: center;
 }
 .targetSendPrimaryRight .primary{
-  padding: 10px 3em;
+  padding: 10px 75px;
+  width: 300px;
 }
 .targetSendPrimaryRight a{
   text-decoration: none;
@@ -1849,7 +1859,7 @@ div .speakRight img{
 .onlineWallet h2 {
   font-weight: 700;
   font-size: 32px;
-  line-height: 22px;
+  line-height: 120%;
   margin-bottom: 33px;
 }
 .moneyOnWallet {
@@ -1982,7 +1992,7 @@ div .speakRight img{
 
 
 .walletReplenishment h3 {
-  margin-top: 2em;
+  margin-top: calc(7.5vw - 8px);
   font-weight: 700;
   font-size: 32px;
   line-height: 42px;
@@ -1994,7 +2004,7 @@ div .speakRight img{
   gap: 15px;
   padding: calc(3vw + 29px) calc(7.1vw - 17px);
   width: calc(20.5vw + 222px);
-  margin: 15em auto;
+  margin: calc(11.6vw - 24px) auto;
   border: 2px solid var(--blue);
   border-radius: 1em;
 
