@@ -1493,11 +1493,11 @@ a.activeNumber__projects {
 .messagesServesLeft {
   border: 2px solid var(--blue);
   border-radius: 0.5em;
-  margin-right: 10px;
 }
 .messagesServesLeft {
   flex-basis: 843px;
-  flex-grow: 2;
+  min-width: 330px;
+  flex-grow: 1;
   height: 679px;
   display: flex;
   flex-direction: column;
@@ -1506,6 +1506,7 @@ a.activeNumber__projects {
 .UserSpeak {
   margin-top: auto;
   display: flex;
+  font-size: 10px;
   flex-direction: column-reverse;
   gap: 10px;
   color: #6B7280;
@@ -1587,8 +1588,8 @@ div .speakRight img{
   gap: 12px;
 }
 .onlineOfoffline {
-  font-size: 20px;
-  line-height: 22px;
+  font-size: calc(0.26 + 15px);
+  line-height: 120%;
   color: #6B7280;
 }
 .nameUserMessage {
@@ -1655,7 +1656,8 @@ div .speakRight img{
 }
 
 .faceUser {
-  width: 62px;
+  width: calc(1.4vw + 37px);
+  height: calc(1.4vw + 37px);
   border-radius: 50%;
   border: 1px solid var(--blue);
 }
@@ -1663,8 +1665,8 @@ div .speakRight img{
 .status {
   width: 13px;
   position: relative;
-  margin-top: 35px;
-  margin-left: -6px;
+  margin-top: 30px;
+  margin-left: -10px;
 }
 
 @media (max-width: 1442px) {
@@ -1686,7 +1688,9 @@ div .speakRight img{
     left: 90%;
   }
 }
-
+.UserSpeak span{
+  font-size: calc(0.26 + 15px);
+}
 
 
 
