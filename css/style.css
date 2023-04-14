@@ -1180,7 +1180,7 @@ a.activeNumber__projects {
 
 .scene {
   perspective: 500px;
-  display: none;
+/*   display: none; */
 }
 .coub {
   width: 200px;
