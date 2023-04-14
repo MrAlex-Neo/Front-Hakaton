@@ -1296,6 +1296,7 @@ a.activeNumber__projects {
   flex-wrap: wrap;
   gap: calc(7.5vw - 8px);
   margin-bottom: calc(7.5vw - 8px);
+  padding-right: 10px;
 }
 .mainLeft {
   flex-grow: 1;
@@ -1340,6 +1341,7 @@ a.activeNumber__projects {
   font-size: 20px;
   line-height: 22px;
   margin-bottom: 30px;
+  padding-right: 10px;
 }
 .mainRightHead {
   display: flex;
@@ -1411,6 +1413,7 @@ a.activeNumber__projects {
 .messagesServesLeft {
   border: 2px solid var(--blue);
   border-radius: 0.5em;
+  margin-right: 10px;
 }
 .messagesServesLeft {
   flex-basis: 843px;
@@ -1598,6 +1601,11 @@ div .speakRight img{
       margin-left: 15px;
   }
 }
+@media (max-width: 450px) {
+  .inputSpeak {
+    left: 90%;
+  }
+}
 
 
 
@@ -1694,6 +1702,9 @@ div .speakRight img{
   height: 410px;
   padding: 20px 30px;
   border-radius: 1em;
+}
+.blueRightTarget.target {
+  height: auto;
 }
 .primary.target {
   color: #FD4E5D;
